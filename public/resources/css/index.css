@@ -1,0 +1,67 @@
+body {
+  font-family: 'Nunito';
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 5rem;
+  height: 100vh;
+}
+
+.main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main form label,
+.main form input {
+  margin-bottom: 0.7rem;
+}
+
+.main form input[type="submit"] {
+  padding: 0.5rem;
+  width: 7rem;
+  border-radius: 2rem;
+  border: none;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all ease-in .2s;
+  transition: all ease-in .2s;
+}
+
+.main form input[type="submit"]:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: aquamarine;
+}
+
+.main form input[type="text"] {
+  width: 20rem;
+  border-radius: 1rem;
+  background: whitesmoke;
+  height: 1.5rem;
+  padding: 0rem 1rem;
+  border: 1px solid #e1e1e1;
+}
+/*# sourceMappingURL=index.css.map */

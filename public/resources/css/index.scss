@@ -1,0 +1,43 @@
+body{
+    font-family: 'Nunito';
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5rem;
+    height: 100vh;
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        label,
+        input {
+            margin-bottom: 0.7rem;
+        }
+        input[type="submit"] {
+            padding: 0.5rem;
+            width: 7rem;
+            border-radius: 2rem;
+            border: none;
+            background: #000;
+            color: #fff;
+            text-transform: uppercase;
+            transition: all ease-in .2s;
+            &:hover{
+                cursor: pointer;
+                color: #000;
+                background-color: aquamarine;
+            }
+        }
+        input[type="text"]{
+            width: 20rem;
+            border-radius: 1rem;
+            background: whitesmoke;
+            height: 1.5rem;
+            padding: 0rem 1rem;
+            border: 1px solid #e1e1e1;
+        }
+    }
+}
