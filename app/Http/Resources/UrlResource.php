@@ -25,11 +25,11 @@ class UrlResource extends JsonResource
 
     public function with($request)
     {
-        $serverName = strtolower(explode('/', $_SERVER['SERVER_PROTOCOL'])[0]) . "://" . $_SERVER['HTTP_HOST'];
-
         return [
             'additional_info' => [
-                'name' => $serverName . '/api/url/dec/' . $this->name,
+                'name' => $this->name,
+                'formated_name' => $this->formated_name,
+                'url' => $this->url
             ],
         ];
     }
